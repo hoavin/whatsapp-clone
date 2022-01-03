@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5A1F5E2780F0090053F17E /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1F5D2780F0090053F17E /* ChatTableViewCell.m */; };
+		0A6E050E277B973000AB3DED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E050D277B973000AB3DED /* AppDelegate.m */; };
+		0A6E0514277B973000AB3DED /* MainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E0513277B973000AB3DED /* MainTabbarController.m */; };
+		0A6E0519277B973200AB3DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6E0518277B973200AB3DED /* Assets.xcassets */; };
+		0A6E051C277B973200AB3DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6E051A277B973200AB3DED /* LaunchScreen.storyboard */; };
+		0A6E051F277B973200AB3DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E051E277B973200AB3DED /* main.m */; };
+		0A6E052D277B999900AB3DED /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E052C277B999900AB3DED /* StatusViewController.m */; };
+		0A6E0531277B99B500AB3DED /* CallsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E0530277B99B500AB3DED /* CallsViewController.m */; };
+		0A6E0535277B99E300AB3DED /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E0534277B99E300AB3DED /* CameraViewController.m */; };
+		0A6E0539277B99F200AB3DED /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E0538277B99F200AB3DED /* ChatViewController.m */; };
+		0A6E053D277B9A3100AB3DED /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E053C277B9A3100AB3DED /* SettingsViewController.m */; };
+		0A6E0571277CAD2700AB3DED /* SettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E0570277CAD2700AB3DED /* SettingsTableViewCell.m */; };
+		0A6E0575277CE63100AB3DED /* ProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E0574277CE63100AB3DED /* ProfileTableViewCell.m */; };
+		0A6E0578277CE6A500AB3DED /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E0577277CE6A500AB3DED /* Profile.m */; };
+		0A7D25A5277F2D1300F0D9C8 /* ModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D25A4277F2D1300F0D9C8 /* ModelData.m */; };
+		0A7D25A8277F32E500F0D9C8 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A7D25A7277F32E500F0D9C8 /* data.json */; };
+		0AD75B882782291700C28196 /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD75B872782291700C28196 /* ConversationViewController.m */; };
+		0AD75B8D27830E5A00C28196 /* ChatBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD75B8C27830E5A00C28196 /* ChatBubbleTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A5A1F5C2780F0090053F17E /* ChatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		0A5A1F5D2780F0090053F17E /* ChatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		0A6E0509277B973000AB3DED /* WhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6E050C277B973000AB3DED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A6E050D277B973000AB3DED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A6E0512277B973000AB3DED /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		0A6E0513277B973000AB3DED /* MainTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabbarController.m; sourceTree = "<group>"; };
+		0A6E0518277B973200AB3DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6E051B277B973200AB3DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A6E051D277B973200AB3DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6E051E277B973200AB3DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A6E052B277B999900AB3DED /* StatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusViewController.h; sourceTree = "<group>"; };
+		0A6E052C277B999900AB3DED /* StatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusViewController.m; sourceTree = "<group>"; };
+		0A6E052F277B99B500AB3DED /* CallsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallsViewController.h; sourceTree = "<group>"; };
+		0A6E0530277B99B500AB3DED /* CallsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallsViewController.m; sourceTree = "<group>"; };
+		0A6E0533277B99E300AB3DED /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		0A6E0534277B99E300AB3DED /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		0A6E0537277B99F200AB3DED /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		0A6E0538277B99F200AB3DED /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		0A6E053B277B9A3100AB3DED /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0A6E053C277B9A3100AB3DED /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0A6E056F277CAD2700AB3DED /* SettingsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewCell.h; sourceTree = "<group>"; };
+		0A6E0570277CAD2700AB3DED /* SettingsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewCell.m; sourceTree = "<group>"; };
+		0A6E0573277CE63100AB3DED /* ProfileTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewCell.h; sourceTree = "<group>"; };
+		0A6E0574277CE63100AB3DED /* ProfileTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewCell.m; sourceTree = "<group>"; };
+		0A6E0577277CE6A500AB3DED /* Profile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		0A6E0579277CE73D00AB3DED /* Profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		0A7D25A3277F2D0400F0D9C8 /* ModelData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelData.h; sourceTree = "<group>"; };
+		0A7D25A4277F2D1300F0D9C8 /* ModelData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelData.m; sourceTree = "<group>"; };
+		0A7D25A7277F32E500F0D9C8 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		0AD75B862782291700C28196 /* ConversationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
+		0AD75B872782291700C28196 /* ConversationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversationViewController.m; sourceTree = "<group>"; };
+		0AD75B8B27830E5A00C28196 /* ChatBubbleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatBubbleTableViewCell.h; sourceTree = "<group>"; };
+		0AD75B8C27830E5A00C28196 /* ChatBubbleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatBubbleTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6E0506277B973000AB3DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5A1F5B2780EFE70053F17E /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1F5C2780F0090053F17E /* ChatTableViewCell.h */,
+				0A5A1F5D2780F0090053F17E /* ChatTableViewCell.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		0A6E0500277B973000AB3DED = {
+			isa = PBXGroup;
+			children = (
+				0A6E050B277B973000AB3DED /* WhatsApp */,
+				0A6E050A277B973000AB3DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A6E050A277B973000AB3DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E0509277B973000AB3DED /* WhatsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A6E050B277B973000AB3DED /* WhatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E050C277B973000AB3DED /* AppDelegate.h */,
+				0A6E050D277B973000AB3DED /* AppDelegate.m */,
+				0A6E0576277CE68B00AB3DED /* Model */,
+				0A6E056D277CACFE00AB3DED /* Views */,
+				0A6E0526277B98E600AB3DED /* ViewControllers */,
+				0A7D25A6277F326200F0D9C8 /* Resources */,
+				0A6E0518277B973200AB3DED /* Assets.xcassets */,
+				0A6E051A277B973200AB3DED /* LaunchScreen.storyboard */,
+				0A6E051D277B973200AB3DED /* Info.plist */,
+				0A6E051E277B973200AB3DED /* main.m */,
+			);
+			path = WhatsApp;
+			sourceTree = "<group>";
+		};
+		0A6E0526277B98E600AB3DED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E0512277B973000AB3DED /* MainTabBarController.h */,
+				0A6E0513277B973000AB3DED /* MainTabbarController.m */,
+				0A6E052A277B998C00AB3DED /* Status */,
+				0A6E052E277B99A100AB3DED /* Calls */,
+				0A6E0532277B99BB00AB3DED /* Camera */,
+				0A6E0536277B99EA00AB3DED /* Chat */,
+				0A6E053A277B9A2700AB3DED /* Settings */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0A6E052A277B998C00AB3DED /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E052B277B999900AB3DED /* StatusViewController.h */,
+				0A6E052C277B999900AB3DED /* StatusViewController.m */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		0A6E052E277B99A100AB3DED /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E052F277B99B500AB3DED /* CallsViewController.h */,
+				0A6E0530277B99B500AB3DED /* CallsViewController.m */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		0A6E0532277B99BB00AB3DED /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E0533277B99E300AB3DED /* CameraViewController.h */,
+				0A6E0534277B99E300AB3DED /* CameraViewController.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		0A6E0536277B99EA00AB3DED /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				0AD75B85278228F300C28196 /* Conversation */,
+				0A6E0537277B99F200AB3DED /* ChatViewController.h */,
+				0A6E0538277B99F200AB3DED /* ChatViewController.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		0A6E053A277B9A2700AB3DED /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E053B277B9A3100AB3DED /* SettingsViewController.h */,
+				0A6E053C277B9A3100AB3DED /* SettingsViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0A6E056D277CACFE00AB3DED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E056E277CAD0600AB3DED /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A6E056E277CAD0600AB3DED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0AD75B8A27830E3D00C28196 /* ChatBubble */,
+				0A5A1F5B2780EFE70053F17E /* Chat */,
+				0A6E0572277CAD3100AB3DED /* Settings */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0A6E0572277CAD3100AB3DED /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E0573277CE63100AB3DED /* ProfileTableViewCell.h */,
+				0A6E0574277CE63100AB3DED /* ProfileTableViewCell.m */,
+				0A6E056F277CAD2700AB3DED /* SettingsTableViewCell.h */,
+				0A6E0570277CAD2700AB3DED /* SettingsTableViewCell.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0A6E0576277CE68B00AB3DED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E057A277CE74700AB3DED /* Profile */,
+				0A7D25A3277F2D0400F0D9C8 /* ModelData.h */,
+				0A7D25A4277F2D1300F0D9C8 /* ModelData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A6E057A277CE74700AB3DED /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E0579277CE73D00AB3DED /* Profile.h */,
+				0A6E0577277CE6A500AB3DED /* Profile.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0A7D25A6277F326200F0D9C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A7D25A7277F32E500F0D9C8 /* data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0AD75B85278228F300C28196 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				0AD75B862782291700C28196 /* ConversationViewController.h */,
+				0AD75B872782291700C28196 /* ConversationViewController.m */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		0AD75B8A27830E3D00C28196 /* ChatBubble */ = {
+			isa = PBXGroup;
+			children = (
+				0AD75B8B27830E5A00C28196 /* ChatBubbleTableViewCell.h */,
+				0AD75B8C27830E5A00C28196 /* ChatBubbleTableViewCell.m */,
+			);
+			path = ChatBubble;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A6E0508277B973000AB3DED /* WhatsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6E0522277B973200AB3DED /* Build configuration list for PBXNativeTarget "WhatsApp" */;
+			buildPhases = (
+				0A6E0505277B973000AB3DED /* Sources */,
+				0A6E0506277B973000AB3DED /* Frameworks */,
+				0A6E0507277B973000AB3DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsApp;
+			productName = WhatsApp;
+			productReference = 0A6E0509277B973000AB3DED /* WhatsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A6E0501277B973000AB3DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0A6E0508277B973000AB3DED = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A6E0504277B973000AB3DED /* Build configuration list for PBXProject "WhatsApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A6E0500277B973000AB3DED;
+			productRefGroup = 0A6E050A277B973000AB3DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A6E0508277B973000AB3DED /* WhatsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A6E0507277B973000AB3DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6E051C277B973200AB3DED /* LaunchScreen.storyboard in Resources */,
+				0A7D25A8277F32E500F0D9C8 /* data.json in Resources */,
+				0A6E0519277B973200AB3DED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6E0505277B973000AB3DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6E0578277CE6A500AB3DED /* Profile.m in Sources */,
+				0A5A1F5E2780F0090053F17E /* ChatTableViewCell.m in Sources */,
+				0A6E052D277B999900AB3DED /* StatusViewController.m in Sources */,
+				0A6E0514277B973000AB3DED /* MainTabbarController.m in Sources */,
+				0A6E050E277B973000AB3DED /* AppDelegate.m in Sources */,
+				0A6E0575277CE63100AB3DED /* ProfileTableViewCell.m in Sources */,
+				0A6E053D277B9A3100AB3DED /* SettingsViewController.m in Sources */,
+				0A6E0535277B99E300AB3DED /* CameraViewController.m in Sources */,
+				0A7D25A5277F2D1300F0D9C8 /* ModelData.m in Sources */,
+				0AD75B8D27830E5A00C28196 /* ChatBubbleTableViewCell.m in Sources */,
+				0AD75B882782291700C28196 /* ConversationViewController.m in Sources */,
+				0A6E0571277CAD2700AB3DED /* SettingsTableViewCell.m in Sources */,
+				0A6E0531277B99B500AB3DED /* CallsViewController.m in Sources */,
+				0A6E0539277B99F200AB3DED /* ChatViewController.m in Sources */,
+				0A6E051F277B973200AB3DED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A6E051A277B973200AB3DED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6E051B277B973200AB3DED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A6E0520277B973200AB3DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A6E0521277B973200AB3DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A6E0523277B973200AB3DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5Y8ATPCRD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.hoavin.WhatsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0A6E0524277B973200AB3DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5Y8ATPCRD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.hoavin.WhatsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A6E0504277B973000AB3DED /* Build configuration list for PBXProject "WhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6E0520277B973200AB3DED /* Debug */,
+				0A6E0521277B973200AB3DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6E0522277B973200AB3DED /* Build configuration list for PBXNativeTarget "WhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6E0523277B973200AB3DED /* Debug */,
+				0A6E0524277B973200AB3DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A6E0501277B973000AB3DED /* Project object */;
+}
